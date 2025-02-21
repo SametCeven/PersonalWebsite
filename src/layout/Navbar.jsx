@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom";
 import data from "../data.json"
+import { Link } from "react-router-dom";
 import { useContext } from "react";
 import { GlobalContext } from "../contexts/GlobalContext";
 
@@ -11,7 +11,7 @@ export default function Navbar(){
             <div className="flex justify-end items-center gap-15 ">
                 <Link> {data[lang].nav.skills} </Link>
                 <Link> {data[lang].nav.projects} </Link>
-                <Link className="border-1 border-title rounded-lg px-5 py-2"> {data[lang].nav.hire} </Link>
+                <Link className="btn"> {data[lang].nav.hire} </Link>
             </div>
         </div>
     )

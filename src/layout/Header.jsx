@@ -26,17 +26,19 @@ export default function Header() {
                     ></input>
                     <span className="slider"></span>
                 </label>
-                <h1 className="font-bold"> {data[lang].header.darkmode} </h1>
+                <h1 className="font-semibold"> {data[lang].header.darkmode} </h1>
             </div>
             <span>|</span>
-            <div>
-                <span className="text-title font-bold hover:cursor-pointer" onClick={handleLanguage}>
-                    {data[lang].header.language}
-                    <span className="text-primary">
+            <div className="font-bold hover:cursor-pointer">
+                <p onClick={handleLanguage}>
+                    {lang === "tr" ? <span> SWITCH TO </span> : ""}
+                    <span className="text-title">
+                        {data[lang].header.language}
+                    </span>
+                    <span className="">
                         {data[lang].header.languageSuffix}
                     </span>
-                </span>
-
+                </p>
             </div>
 
 

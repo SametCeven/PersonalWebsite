@@ -11,3 +11,13 @@
 body{
     @apply font-primary text-primary text-lg;
 }
+
+.btn{
+    @apply text-title border-1 border-title rounded-md w-30 h-10
+    flex items-center justify-center
+}
+
+.btn-fil{
+    @apply bg-title text-white border-1 border-title rounded-md w-30 h-10
+    flex items-center justify-center
+}

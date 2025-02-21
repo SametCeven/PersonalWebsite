@@ -9,6 +9,11 @@
             "skills" : "Skills",
             "projects" : "Proejcts",
             "hire": "Hire me"
+        },
+        "intro":{
+            "h1":"Creative thinker Minimalism lover",
+            "p":"Hi, I’m Almila. I’m a full-stack developer. If you are looking for a Developer who to craft solid and scalable frontend products with great user experiences. Let’s shake hands with me.",
+            "hire":"Hire me"
         }
     },
     "tr":{
@@ -21,6 +26,11 @@
             "skills" : "Yetenekler",
             "projects" : "Projeler",
             "hire": "Beni işe al"
+        },
+        "intro":{
+            "h1":"Yaratıcı düşünebilen Minimalist hayranı",
+            "p":"Merhaba, ben Almila. Full-stack geliştiriciyim. Harika bir kullanıcı deneyimi sunan sağlam ve ölçeklenebilir ön uç ürünler geliştirebilecek bir geliştirici arıyorsanız, gelin el sıkışalım!",
+            "hire":"Beni alın"
         }
     }
 }
