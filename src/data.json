@@ -1,8 +1,26 @@
 {
     "en":{
-
+        "header":{
+            "darkmode": "DARK MODE",
+            "language": "TÜRKÇE",
+            "languageSuffix": "'YE GEÇ"
+        },
+        "nav":{
+            "skills" : "Skills",
+            "projects" : "Proejcts",
+            "hire": "Hire me"
+        }
     },
     "tr":{
-        
+        "header":{
+            "darkmode": "KOYU TEMA",
+            "language": "ENGLISH",
+            "languageSuffix": ""
+        },
+        "nav":{
+            "skills" : "Yetenekler",
+            "projects" : "Projeler",
+            "hire": "Beni işe al"
+        }
     }
 }
