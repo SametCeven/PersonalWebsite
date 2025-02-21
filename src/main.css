@@ -24,7 +24,7 @@ body{
 }
 
 .title-1{
-    @apply text-titleBold text-3xl font-semibold
+    @apply text-titleBold text-5xl font-semibold
 }
 
 .title-2{

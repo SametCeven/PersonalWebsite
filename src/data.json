@@ -1,46 +1,118 @@
 {
     "en":{
-        "header":{
+        "headerSection":{
             "darkmode": "DARK MODE",
             "language": "TÜRKÇE",
             "languageSuffix": "'YE GEÇ"
         },
-        "nav":{
+        "navSection":{
             "skills" : "Skills",
             "projects" : "Proejcts",
             "hire": "Hire me"
         },
-        "intro":{
+        "introSection":{
             "h1":"Creative thinker Minimalism lover",
             "p":"Hi, I’m Almila. I’m a full-stack developer. If you are looking for a Developer who to craft solid and scalable frontend products with great user experiences. Let’s shake hands with me.",
             "hire":"Hire me"
         },
-        "skills":{
-            "p1":"Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "p2":"Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "p3":"Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        "skillsSection":{
+            "h1":"Skills",
+            "skills":[
+                {
+                    "name":"Java Script",
+                    "exp":"Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                },
+                {
+                    "name":"React.js",
+                    "exp":"Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                },
+                {
+                    "name":"Node.js",
+                    "exp":"Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                }   
+            ]
+        },
+        "profileSection":{
+            "h1":"Profile",
+            "h2":"Profile",
+            "info": [
+                {
+                    "name":"Date of birth",
+                    "exp": "24.03.1996"
+                },
+                {
+                    "name":"City",
+                    "exp":"Ankara"
+                },
+                {
+                    "name":"Education",
+                    "exp":"Hacettepe Unv. Biology Undergraduate,2016"
+                },
+                {
+                    "name":"Preferred roles",
+                    "exp":"Frontend"
+                }
+            ],
+            "h22":"About Me",
+            "p":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia.Mnima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam!"
         }
     },
     "tr":{
-        "header":{
+        "headerSection":{
             "darkmode": "KOYU TEMA",
             "language": "ENGLISH",
             "languageSuffix": ""
         },
-        "nav":{
+        "navSection":{
             "skills" : "Yetenekler",
             "projects" : "Projeler",
             "hire": "Beni işe al"
         },
-        "intro":{
+        "introSection":{
             "h1":"Yaratıcı düşünebilen Minimalist hayranı",
             "p":"Merhaba, ben Almila. Full-stack geliştiriciyim. Harika bir kullanıcı deneyimi sunan sağlam ve ölçeklenebilir ön uç ürünler geliştirebilecek bir geliştirici arıyorsanız, gelin el sıkışalım!",
             "hire":"Beni işe al"
         },
-        "skills":{
-            "p1":"Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "p2":"Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "p3":"Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        "skillsSection":{
+            "h1":"Yetenekler",
+            "skills":[
+                {
+                    "name":"Java Script",
+                    "exp":"Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                },
+                {
+                    "name":"React.js",
+                    "exp":"Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                },
+                {
+                    "name":"Node.js",
+                    "exp":"Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                }   
+            ]
+        },
+        "profileSection":{
+            "h1":"Profile",
+            "h2":"Profile",
+            "info": [
+                {
+                    "name":"Doğum tarihi",
+                    "exp": "24.03.1996"
+                },
+                {
+                    "name":"İkamet Şehri",
+                    "exp":"Ankara"
+                },
+                {
+                    "name":"Eğitim Durumu",
+                    "exp":"Hacettepe Unv. Biology Undergraduate,2016"
+                },
+                {
+                    "name":"Tercih Ettiği Rol",
+                    "exp":"Frontend"
+                }
+            ],
+            "h22":"Benim Hakkımda",
+            "p":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia.Mnima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam!"
         }
     }
 }

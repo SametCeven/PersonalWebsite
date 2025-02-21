@@ -6,21 +6,16 @@ export default function Skills() {
     const { lang, darkMode } = useContext(GlobalContext)
     return (
         <div className="my-15 flex flex-col gap-5 pb-10 border-b-1 border-border">
-            <h1 className="title-1">Skills</h1>
+            <h1 className="title-1"> {data[lang].skillsSection.h1} </h1>
             <div className="flex justify-between gap-5">
-                <div className="flex flex-col gap-5 w-70">
-                    <h2 className="title-2"> Java Script </h2>
-                    <p className="text-xs"> {data[lang].skills.p1} </p>
-                </div>
-                <div className="flex flex-col gap-5 w-70">
-                    <h2 className="title-2"> React.js </h2>
-                    <p className="text-xs"> {data[lang].skills.p2} </p>
-                </div>
-                <div className="flex flex-col gap-5 w-70">
-                    <h2 className="title-2"> Node.js </h2>
-                    <p className="text-xs"> {data[lang].skills.p3} </p>
-                </div>
+                {data[lang].skillsSection.skills.map((skill, index) =>
+                    < div className="flex flex-col gap-5 w-70" key={index} >
+                        <h2 className="title-2" key={skill.name} >{skill.name} </h2>
+                        <p className="text-xs" key={skill.exp} > {skill.exp} </p>
+                    </div>
+                )
+                }
             </div>
-        </div>
+        </div >
     )
 }

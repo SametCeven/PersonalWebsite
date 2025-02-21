@@ -15,10 +15,10 @@ export default function Introduction(){
                     <span className="border-b-1 border-title w-20 mr-2 flex"></span>
                     <span className="text-title">Samet Çeven</span>
                 </div>
-                <h1 className="text-7xl text-titleBold font-bold"> {data[lang].intro.h1} </h1>
-                <p> {data[lang].intro.p} </p>
+                <h1 className="text-7xl text-titleBold font-bold"> {data[lang].introSection.h1} </h1>
+                <p> {data[lang].introSection.p} </p>
                 <div className="flex gap-3">
-                    <button className="btn-fil">{data[lang].intro.hire}</button>
+                    <button className="btn-fil">{data[lang].introSection.hire}</button>
                     <button className="btn">
                     <FontAwesomeIcon icon={faGithub} className="mr-2"/>
                         Github
