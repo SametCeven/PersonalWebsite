@@ -14,6 +14,11 @@
             "h1":"Creative thinker Minimalism lover",
             "p":"Hi, I’m Almila. I’m a full-stack developer. If you are looking for a Developer who to craft solid and scalable frontend products with great user experiences. Let’s shake hands with me.",
             "hire":"Hire me"
+        },
+        "skills":{
+            "p1":"Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "p2":"Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "p3":"Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
         }
     },
     "tr":{
@@ -30,7 +35,12 @@
         "intro":{
             "h1":"Yaratıcı düşünebilen Minimalist hayranı",
             "p":"Merhaba, ben Almila. Full-stack geliştiriciyim. Harika bir kullanıcı deneyimi sunan sağlam ve ölçeklenebilir ön uç ürünler geliştirebilecek bir geliştirici arıyorsanız, gelin el sıkışalım!",
-            "hire":"Beni alın"
+            "hire":"Beni işe al"
+        },
+        "skills":{
+            "p1":"Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "p2":"Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "p3":"Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
         }
     }
 }

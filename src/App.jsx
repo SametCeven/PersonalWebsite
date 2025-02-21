@@ -11,7 +11,7 @@ import GlobalContextProvider from './contexts/GlobalContext';
 export default function App() {
 
   return (
-    <div className='mx-5 my-5 max-w-[1000px]'>
+    <div className='mx-auto px-5 my-5 max-w-[1300px]'>
       <GlobalContextProvider>
         <Header/>
         <Navbar/>
