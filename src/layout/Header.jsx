@@ -15,7 +15,7 @@ export default function Header() {
         else setLang("en")
     }
     return (
-        <div className="flex justify-end gap-3 text-primary items-center text-[15px]">
+        <div className="flex justify-end gap-3 text-primary items-center text-[15px] px-30">
             <div className="flex gap-1 items-center">
                 <label className="switch">
                     <input

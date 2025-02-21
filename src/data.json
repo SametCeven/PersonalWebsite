@@ -55,7 +55,8 @@
                 }
             ],
             "h22":"About Me",
-            "p":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia.Mnima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam!"
+            "p1":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia.",
+            "p2":"Mnima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam!"
         },
         "projectsSection":{
             "h1": "Projects",
@@ -93,6 +94,24 @@
                     "url":"/"
                 }
             }
+            ]
+        },
+        "footerSection":{
+            "title":"Let’s work together on your next product.",
+            "email":"almilasucode@gmail.com",
+            "nav":[
+                {
+                    "item":"Personal Blog",
+                    "color":"#0A0A14"
+                },
+                {
+                    "item":"Github",
+                    "color":"#00AB6B"
+                },
+                {
+                    "item":"Linkedin",
+                    "color":"#0077B5"
+                }
             ]
         }
     },
@@ -156,7 +175,8 @@
                 }
             ],
             "h22":"Benim Hakkımda",
-            "p":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia.Mnima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam!"
+            "p1":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia.",
+            "p2":"Mnima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam!"
         },
         "projectsSection":{
             "h1": "Projects",
@@ -194,6 +214,24 @@
                     "url":"/"
                 }
             }
+            ]
+        },
+        "footerSection":{
+            "title":"Bir sonraki ürününüz üzerinde birlikte çalışalım.",
+            "email":"almilasucode@gmail.com",
+            "nav":[
+                {
+                    "item":"Kişisel Blog",
+                    "color":"#0A0A14"
+                },
+                {
+                    "item":"Github",
+                    "color":"#00AB6B"
+                },
+                {
+                    "item":"Linkedin",
+                    "color":"#0077B5"
+                }
             ]
         }
     }

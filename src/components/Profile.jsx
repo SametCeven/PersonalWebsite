@@ -4,7 +4,7 @@ import { GlobalContext } from "../contexts/GlobalContext"
 export default function Profile() {
     const { lang, darkMode } = useContext(GlobalContext)
     return (
-        <div className="my-15 flex flex-col gap-5 pb-10 border-b-1 border-border">
+        <div className="flex flex-col gap-5 pb-15 border-b-1 border-border px-30 py-15">
             <h1 className="title-1"> {data[lang].profileSection.h1} </h1>
             <div className="flex justify-between">
                 <div className="w-100 flex flex-col gap-5">
@@ -22,7 +22,8 @@ export default function Profile() {
                 </div>
                 <div className="w-175 flex flex-col gap-5">
                     <h2 className="title-2"> {data[lang].profileSection.h22} </h2>
-                    <p> {data[lang].profileSection.p} </p>
+                    <p> {data[lang].profileSection.p1} </p>
+                    <p> {data[lang].profileSection.p2} </p>
                 </div>
             </div>
         </div>
