@@ -4,7 +4,6 @@ import { GlobalContext } from "../contexts/GlobalContext"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
-import image from "../assets/intro.png"
 
 export default function Introduction(){
     const {lang,darkMode} = useContext(GlobalContext)
@@ -29,7 +28,7 @@ export default function Introduction(){
                     </button>
                 </div>
             </div>
-            <img src={image} alt="intro" />
+            <img src={data[lang].introSection.image} alt="intro" />
         </div>
     )
 }

@@ -23,6 +23,11 @@ body{
     flex items-center justify-center
 }
 
+.btn-s{
+    @apply text-title text-sm border-1 border-title rounded-sm w-15 h-5
+    flex items-center justify-center
+}
+
 .title-1{
     @apply text-titleBold text-5xl font-semibold
 }
