@@ -8,7 +8,7 @@ export default function Projects() {
     const { lang, darkMode } = useContext(GlobalContext)
     return (
         <div className="flex flex-col gap-10 px-30 py-15">
-            <h1 className="title-1"> {data[lang].projectsSection.h1} </h1>
+            <h1 className={`${darkMode ? "title-1-dark" : "title-1"}`}> {data[lang].projectsSection.h1} </h1>
             <div className="flex gap-20">
                 {data[lang].projectsSection.projects.map((project, index) =>
                     <div className="flex flex-col gap-5" key={index} >

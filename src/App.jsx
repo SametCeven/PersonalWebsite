@@ -6,13 +6,14 @@ import Introduction from './components/Introduction';
 import Skills from './components/Skills';
 import Profile from './components/Profile';
 import Projects from './components/Projects';
-import GlobalContextProvider from './contexts/GlobalContext';
+import GlobalContextProvider, { GlobalContext } from './contexts/GlobalContext';
+import { useContext } from 'react';
 
 export default function App() {
+  const {darkMode} = useContext(GlobalContext);
 
   return (
-    <div className='mx-auto my-5 max-w-[1500px]'>
-      <GlobalContextProvider>
+    <div className={`mx-auto px-30 py-15 ${darkMode? "bg-titleBold" : "" }  `}>
         <Header/>
         <Navbar/>
         <Introduction/>
@@ -20,7 +21,6 @@ export default function App() {
         <Profile/>
         <Projects/>
         <Footer/>
-      </GlobalContextProvider>
     </div>
   )
 }

@@ -1,12 +1,14 @@
 @import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+
 @theme {
     --font-primary: "Inter";
     --color-title: #4338CA;
     --color-titleBold: #1F2937;
     --color-primary:#6B7280;
     --color-border:#BAB2E7;
+    --color-fill:#3730A3;
 }
 
 body{
@@ -15,12 +17,38 @@ body{
 
 .btn{
     @apply text-title border-1 border-title rounded-md w-30 h-10
+    flex items-center justify-center cursor-pointer
+}
+
+.btn:hover{
+    @apply text-white bg-fill
+}
+
+.btn-dark{
+    @apply text-primary border-1 border-title rounded-md w-30 h-10
     flex items-center justify-center
 }
 
-.btn-fil{
-    @apply bg-[#3730A3] text-white border-1 border-title rounded-md w-30 h-10
+.btn-dark:hover{
+    @apply text-white bg-fill
+}
+
+.btn-fill{
+    @apply bg-fill text-white border-1 border-title rounded-md w-30 h-10
     flex items-center justify-center
+}
+
+.btn-fill:hover{
+    @apply bg-white text-title
+}
+
+.btn-fill-dark{
+    @apply bg-white text-title border-1 border-title rounded-md w-30 h-10
+    flex items-center justify-center
+}
+
+.btn-fill-dark:hover{
+    @apply bg-fill text-white
 }
 
 .btn-s{
@@ -32,7 +60,12 @@ body{
     @apply text-titleBold text-5xl font-semibold
 }
 
+.title-1-dark{
+    @apply text-white text-titleBold text-5xl font-semibold 
+}
+
 .title-2{
     @apply text-title text-3xl font-medium
 }
+
 

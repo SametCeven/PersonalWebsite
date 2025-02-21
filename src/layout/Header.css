@@ -3,8 +3,18 @@
 .switch {
     position: relative;
     display: inline-block;
-    width: 50px;
+    width: 150px;
     height: 20px;
+}
+.switch h1{
+    position: absolute;
+    left:30;
+    right: 0;
+    top:0;
+    bottom:0;
+}
+.switch h1:hover{
+    cursor: pointer;
 }
 
 .checkbox {
@@ -16,6 +26,7 @@
 .slider {
     position: absolute;
     cursor: pointer;
+    width: 50px;
     top: 0;
     left: 0;
     right: 0;

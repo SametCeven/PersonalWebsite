@@ -14,21 +14,21 @@ export default function Introduction(){
                     <span className="border-b-1 border-title w-20 mr-2 flex"></span>
                     <span className="text-title">Samet Çeven</span>
                 </div>
-                <h1 className="text-7xl text-titleBold font-bold"> {data[lang].introSection.h1} </h1>
-                <p> {data[lang].introSection.p} </p>
+                <h1 className={`text-7xl text-titleBold font-bold ${darkMode ? "text-white":""}`}> {data[lang].introSection.h1} </h1>
+                <p className="w-150"> {data[lang].introSection.p} </p>
                 <div className="flex gap-3">
-                    <button className="btn-fil">{data[lang].introSection.hire}</button>
-                    <button className="btn">
+                    <button className={`${darkMode ? "btn-fill-dark" : "btn-fill"}`}>{data[lang].introSection.hire}</button>
+                    <button className={`${darkMode ? "btn-dark" : "btn"}`}>
                     <FontAwesomeIcon icon={faGithub} className="mr-2"/>
                         Github
                     </button>
-                    <button className="btn">
+                    <button className={`${darkMode ? "btn-dark" : "btn"}`}>
                         <FontAwesomeIcon icon={faLinkedin} className="mr-2"/>
                         Linkedin
                     </button>
                 </div>
             </div>
-            <img src={data[lang].introSection.image} alt="intro" />
+            <img src={data[lang].introSection.image} alt="intro" className="w-170 rounded-xl"/>
         </div>
     )
 }

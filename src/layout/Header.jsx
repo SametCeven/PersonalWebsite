@@ -15,7 +15,7 @@ export default function Header() {
         else setLang("en")
     }
     return (
-        <div className="flex justify-end gap-3 text-primary items-center text-[15px] px-30">
+        <div className="flex justify-end gap-3 text-primary text-[15px] px-30">
             <div className="flex gap-1 items-center">
                 <label className="switch">
                     <input
@@ -25,8 +25,8 @@ export default function Header() {
                         checked={darkMode ? true : false}
                     ></input>
                     <span className="slider"></span>
+                    <h1 className="font-semibold"> {data[lang].headerSection.darkmode} </h1>
                 </label>
-                <h1 className="font-semibold"> {data[lang].headerSection.darkmode} </h1>
             </div>
             <span>|</span>
             <div className="font-bold hover:cursor-pointer">
