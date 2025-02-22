@@ -12,7 +12,7 @@
         },
         "introSection":{
             "h1":"Creative thinker Minimalism lover",
-            "p":"Hi, I’m Almila. I’m a full-stack developer. If you are looking for a Developer who to craft solid and scalable frontend products with great user experiences. Let’s shake hands with me.",
+            "p":"Hi , I'm Samet. I'a a full-stack developer. If you are looking for a Developer who to craft solid and scalable frontend products with great user experiences. Let’s shake hands with me.",
             "hire":"Hire me",
             "image":"../../public/images/intro.jpg"
         },
@@ -39,19 +39,19 @@
             "info": [
                 {
                     "name":"Date of birth",
-                    "exp": "24.03.1996"
+                    "exp": "1993"
                 },
                 {
                     "name":"City",
-                    "exp":"Ankara"
+                    "exp":"Istanbul"
                 },
                 {
                     "name":"Education",
-                    "exp":"Hacettepe Unv. Biology Undergraduate,2016"
+                    "exp":"BS. Bogazici University, Mechanical Engineering, 2017"
                 },
                 {
                     "name":"Preferred roles",
-                    "exp":"Frontend"
+                    "exp":"Fullstack Developer"
                 }
             ],
             "h22":"About Me",
@@ -62,43 +62,43 @@
             "h1": "Projects",
             "projects":[
             {
-                "name":"Workintech",
+                "name":"Recipe",
                 "image":"../../public/images/project1.png",
-                "exp":"A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
-                "tech":["react","redux","axios"],
-                "githubUrl":"/",
+                "exp":"Developed a responsive web application for discovering, saving, and sharing recipes. Features include dynamic search, interactive recipe pages, and a clean, user-friendly UI.",
+                "tech":["react","redux","axios","tailwind","hookform"],
+                "githubUrl":"https://github.com/SametCeven/Recipe",
                 "webUrl":{
                     "name":"View Site",
-                    "url":"/"
+                    "url":"https://recipe-chi-eight.vercel.app/"
                 }
             },
             {
-                "name":"Random Jokes",
+                "name":"Pizza",
                 "image":"../../public/images/project2.png",
-                "exp":"A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
-                "tech":["react","redux","axios"],
-                "githubUrl":"/",
+                "exp":"Designed and developed a modern pizza ordering web application with a seamless user experience. The app allows users to browse a menu, customize their orders, and streamline the checkout process.",
+                "tech":["react","cypress","axios"],
+                "githubUrl":"https://github.com/SametCeven/Pizza",
                 "webUrl":{
                     "name":"View Site",
-                    "url":"/"
+                    "url":"https://pizza-seven-wheat.vercel.app/"
                 }
             },
             {
-                "name":"Journey",
+                "name":"Witflix",
                 "image":"../../public/images/project3.png",
-                "exp":"A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
-                "tech":["react","redux","axios"],
-                "githubUrl":"/",
+                "exp":"Developed a sleek and responsive movie streaming web application that allows users to browse, search, and discover movies with a modern, Netflix-inspired UI.",
+                "tech":["html","css","axios"],
+                "githubUrl":"https://github.com/SametCeven/WitFlix",
                 "webUrl":{
                     "name":"View Site",
-                    "url":"/"
+                    "url":"https://wit-flix-theta.vercel.app/"
                 }
             }
             ]
         },
         "footerSection":{
             "title":"Let’s work together on your next product.",
-            "email":"almilasucode@gmail.com",
+            "email":"sametceven@hotmail.com",
             "nav":[
                 {
                     "item":"Personal Blog",
@@ -108,12 +108,14 @@
                 {
                     "item":"Github",
                     "color":"#00AB6B",
-                    "darkcolor":"#00AB6B"
+                    "darkcolor":"#00AB6B",
+                    "url":"https://github.com/SametCeven"
                 },
                 {
                     "item":"Linkedin",
                     "color":"#0077B5",
-                    "darkcolor":"#0077B5"
+                    "darkcolor":"#0077B5",
+                    "url":"https://www.linkedin.com/in/samet-%C3%A7even-414b4b4b/"
                 }
             ]
         }
@@ -134,7 +136,7 @@
         },
         "introSection":{
             "h1":"Yaratıcı düşünebilen Minimalist hayranı",
-            "p":"Merhaba, ben Almila. Full-stack geliştiriciyim. Harika bir kullanıcı deneyimi sunan sağlam ve ölçeklenebilir ön uç ürünler geliştirebilecek bir geliştirici arıyorsanız, gelin el sıkışalım!",
+            "p":"Merhaba, ben Samet. Full-stack geliştiriciyim. Harika bir kullanıcı deneyimi sunan sağlam ve ölçeklenebilir ön uç ürünler geliştirebilecek bir geliştirici arıyorsanız, gelin el sıkışalım!",
             "hire":"Beni işe al",
             "image":"../../public/images/intro.jpg"
 
@@ -157,24 +159,24 @@
             ]
         },
         "profileSection":{
-            "h1":"Profile",
-            "h2":"Profile",
+            "h1":"Profil",
+            "h2":"Profil",
             "info": [
                 {
                     "name":"Doğum tarihi",
-                    "exp": "24.03.1996"
+                    "exp": "1993"
                 },
                 {
                     "name":"İkamet Şehri",
-                    "exp":"Ankara"
+                    "exp":"İstanbul"
                 },
                 {
                     "name":"Eğitim Durumu",
-                    "exp":"Hacettepe Unv. Biology Undergraduate,2016"
+                    "exp":"Lisans, Boğaziçi Üniversitesi, Makine Mühendisliği, 2017"
                 },
                 {
                     "name":"Tercih Ettiği Rol",
-                    "exp":"Frontend"
+                    "exp":"Fullstack Developer"
                 }
             ],
             "h22":"Benim Hakkımda",
@@ -182,58 +184,64 @@
             "p2":"Mnima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam!"
         },
         "projectsSection":{
-            "h1": "Projects",
+            "h1": "Projeler",
             "projects":[
             {
-                "name":"Workintech",
+                "name":"Recipe",
                 "image":"../../public/images/project1.png",
-                "exp":"Kullanıcılarınızın hangi çerezleri kabul edip reddedeceğini seçmesine olanak tanıyan, basit, özelleştirilebilir ve minimal kurulum gerektiren bir çerez eklentisi. Bu eklenti, vanilla JS, SCSS ve Parcel Bundler kullanılarak oluşturulmuştur ve bir NPM paketi olarak mevcuttur. Ayrıca, Git deposu sayesinde kod ve temalar üzerinde her türlü özelleştirme yapmak mümkündür.",
-                "tech":["react","redux","axios"],
-                "githubUrl":"/",
+                "exp":"Keşfetme, kaydetme ve paylaşma özelliklerine sahip duyarlı bir tarif web uygulaması geliştirdim. Özellikler arasında dinamik arama, etkileşimli tarif sayfaları ve temiz, kullanıcı dostu bir arayüz bulunmaktadır.",
+                "tech":["react","redux","axios","tailwind","hookform"],
+                "githubUrl":"https://github.com/SametCeven/Recipe",
                 "webUrl":{
                     "name":"Siteye Git",
-                    "url":"/"
+                    "url":"https://recipe-chi-eight.vercel.app/"
                 }
             },
             {
-                "name":"Random Jokes",
+                "name":"Pizza",
                 "image":"../../public/images/project2.png",
-                "exp":"Kullanıcılarınızın hangi çerezleri kabul edip reddedeceğini seçmesine olanak tanıyan, basit, özelleştirilebilir ve minimal kurulum gerektiren bir çerez eklentisi. Bu eklenti, vanilla JS, SCSS ve Parcel Bundler kullanılarak oluşturulmuştur ve bir NPM paketi olarak mevcuttur. Ayrıca, Git deposu sayesinde kod ve temalar üzerinde her türlü özelleştirme yapmak mümkündür.",
-                "tech":["react","redux","axios"],
-                "githubUrl":"/",
+                "exp":"Kesintisiz bir kullanıcı deneyimi sunan modern bir pizza sipariş web uygulaması tasarladım ve geliştirdim. Uygulama, kullanıcıların menüyü incelemesine, siparişlerini özelleştirmesine ve ödeme sürecini kolaylaştırmasına olanak tanır.",
+                "tech":["react","cypress","axios"],
+                "githubUrl":"https://github.com/SametCeven/Pizza",
                 "webUrl":{
                     "name":"Siteye Git",
-                    "url":"/"
+                    "url":"https://pizza-seven-wheat.vercel.app/"
                 }
             },
             {
-                "name":"Journey",
+                "name":"Witflix",
                 "image":"../../public/images/project3.png",
-                "exp":"Kullanıcılarınızın hangi çerezleri kabul edip reddedeceğini seçmesine olanak tanıyan, basit, özelleştirilebilir ve minimal kurulum gerektiren bir çerez eklentisi. Bu eklenti, vanilla JS, SCSS ve Parcel Bundler kullanılarak oluşturulmuştur ve bir NPM paketi olarak mevcuttur. Ayrıca, Git deposu sayesinde kod ve temalar üzerinde her türlü özelleştirme yapmak mümkündür.",
-                "tech":["react","redux","axios"],
-                "githubUrl":"/",
+                "exp":"Modern, Netflix tarzı bir arayüze sahip şık ve duyarlı bir film akış web uygulaması geliştirdim. Kullanıcılar, filmleri tarayabilir, arayabilir ve keşfedebilir.",
+                "tech":["html","css","axios"],
+                "githubUrl":"https://github.com/SametCeven/WitFlix",
                 "webUrl":{
                     "name":"Siteye Git",
-                    "url":"/"
+                    "url":"https://wit-flix-theta.vercel.app/"
                 }
             }
             ]
         },
         "footerSection":{
             "title":"Bir sonraki ürününüz üzerinde birlikte çalışalım.",
-            "email":"almilasucode@gmail.com",
+            "email":"sametceven@hotmail.com",
             "nav":[
                 {
                     "item":"Kişisel Blog",
-                    "color":"#0A0A14"
+                    "color":"#0A0A14",
+                    "darkcolor":"#FFFFFF"
                 },
                 {
                     "item":"Github",
-                    "color":"#00AB6B"
+                    "color":"#00AB6B",
+                    "darkcolor":"#00AB6B",
+                    "url":"https://github.com/SametCeven"
+
                 },
                 {
                     "item":"Linkedin",
-                    "color":"#0077B5"
+                    "color":"#0077B5",
+                    "darkcolor":"#0077B5",
+                    "url":"https://www.linkedin.com/in/samet-%C3%A7even-414b4b4b/"
                 }
             ]
         }

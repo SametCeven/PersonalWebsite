@@ -6,7 +6,7 @@ import Introduction from './components/Introduction';
 import Skills from './components/Skills';
 import Profile from './components/Profile';
 import Projects from './components/Projects';
-import GlobalContextProvider, { GlobalContext } from './contexts/GlobalContext';
+import { GlobalContext } from './contexts/GlobalContext';
 import { useContext } from 'react';
 
 export default function App() {

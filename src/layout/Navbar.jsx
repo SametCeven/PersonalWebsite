@@ -1,17 +1,25 @@
-import data from "../data.json"
 import { Link } from "react-router-dom";
-import { useContext } from "react";
+import { useContext, useEffect, useState } from "react";
 import { GlobalContext } from "../contexts/GlobalContext";
 
 export default function Navbar(){
-    const {lang,darkMode} = useContext(GlobalContext)
+    const {darkMode,scrollPosition,data} = useContext(GlobalContext)
+    
+    function skillsScroll(){
+        window.scrollTo(0,600)
+    }
+    function projectsScroll(){
+        window.scrollTo(0,1300)
+    }
+   
+
     return(
-        <div className="flex justify-between items-center px-30 py-15 max-md:px-10 max-md:py-10 max-sm:px-2">
+        <div className={`sticky z-99 top-0 flex justify-between items-center px-30 py-15 max-md:px-10 max-md:pb-10 max-sm:px-2 ${scrollPosition>50 && darkMode ? "bg-titleBold pb-5" : "" } ${scrollPosition>50 && !darkMode ? "bg-[#F9F9F9] pb-5" : "" }`}>
             <Link  className="border-1 border-[#EEEBFF] rounded-full w-10 h-10 bg-[#EEEBFF] text-title font-bold rotate-45 flex items-center justify-center text-xl"> S </Link>
             <div className="flex justify-end items-center gap-15 max-sm:gap-3 ">
-                <Link className="hover:border-b-2"> {data[lang].navSection.skills} </Link>
-                <Link className="hover:border-b-2"> {data[lang].navSection.projects} </Link>
-                <Link className={`${darkMode ? "btn-dark" : "btn"}`} > {data[lang].navSection.hire} </Link>
+                <Link className="hover:border-b-2" onClick={skillsScroll} > {data.navSection.skills} </Link>
+                <Link className="hover:border-b-2" onClick={projectsScroll} > {data.navSection.projects} </Link>
+                <Link className={`${darkMode ? "btn-dark" : "btn"}`} > {data.navSection.hire} </Link>
             </div>
         </div>
     )
