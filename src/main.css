@@ -56,6 +56,11 @@ body{
     flex items-center justify-center
 }
 
+.btn-s-dark{
+    @apply text-border text-sm border-1 border-title rounded-sm w-15 h-5
+    flex items-center justify-center
+}
+
 .title-1{
     @apply text-titleBold text-5xl font-semibold
 }
@@ -66,6 +71,10 @@ body{
 
 .title-2{
     @apply text-title text-3xl font-medium
+}
+
+.title-2-dark{
+    @apply text-border text-3xl font-medium
 }
 
 

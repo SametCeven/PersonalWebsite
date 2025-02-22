@@ -13,7 +13,7 @@ export default function App() {
   const {darkMode} = useContext(GlobalContext);
 
   return (
-    <div className={`mx-auto px-30 py-15 ${darkMode? "bg-titleBold" : "" }  `}>
+    <div className={`mx-auto w-[1024] px-30 py-15 max-2xl:px-5 max-xl:px-0 max-lg: max-md:py-5 max-sm:px-0  ${darkMode? "bg-titleBold" : "" }  `}>
         <Header/>
         <Navbar/>
         <Introduction/>

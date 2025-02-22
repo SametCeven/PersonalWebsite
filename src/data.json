@@ -102,15 +102,18 @@
             "nav":[
                 {
                     "item":"Personal Blog",
-                    "color":"#0A0A14"
+                    "color":"#0A0A14",
+                    "darkcolor":"#FFFFFF"
                 },
                 {
                     "item":"Github",
-                    "color":"#00AB6B"
+                    "color":"#00AB6B",
+                    "darkcolor":"#00AB6B"
                 },
                 {
                     "item":"Linkedin",
-                    "color":"#0077B5"
+                    "color":"#0077B5",
+                    "darkcolor":"#0077B5"
                 }
             ]
         }
