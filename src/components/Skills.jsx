@@ -2,9 +2,9 @@ import { useContext } from "react"
 import { GlobalContext } from "../contexts/GlobalContext"
 
 export default function Skills() {
-    const {darkMode,data } = useContext(GlobalContext)
+    const {darkMode,data,skillsSectionRef } = useContext(GlobalContext)
     return (
-        <section className="flex flex-col gap-5 pb-15 border-b-1 border-border px-30 py-15 max-sm:px-5" id="skills">
+        <section className="flex flex-col gap-5 pb-15 border-b-1 border-border px-30 py-15 max-sm:px-5" ref={skillsSectionRef}>
             <h1 className={`${darkMode ? "title-1-dark" : "title-1"}`}> {data.skillsSection.h1} </h1>
             <div className="flex justify-between gap-5 max-sm:gap-2 max-sm:flex-col">
                 {data.skillsSection.skills.map((skill, index) =>

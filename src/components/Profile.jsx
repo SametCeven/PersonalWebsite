@@ -8,12 +8,12 @@ export default function Profile() {
             <div className="flex justify-between max-xl:flex-col max-xl:gap-5">
                 <div className="w-100 flex flex-col gap-5 mr-15 max-xl:w-150 max-md:w-100 max-sm:w-85">
                     <h2 className={`${darkMode ? "title-2-dark" : "title-2"}`}> {data.profileSection.h2} </h2>
-                    <div className="flex flex-col gap-1">
+                    <div className="flex flex-col gap-3 ">
 
                         {data.profileSection.info.map((item,index)=>
                             <div className={`flex justify-between ${darkMode ? "text-white" : "text-black"}`} key={index} >
                                 <span className="font-semibold" key={item.name} > {item.name} </span>
-                                <span className="w-50 max-xl:w-100" key={item.exp} > {item.exp} </span>
+                                <span className="w-50 max-xl:w-100 max-md:w-50" key={item.exp} > {item.exp} </span>
                             </div>
                         )}
 

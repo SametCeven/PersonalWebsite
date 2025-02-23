@@ -4,9 +4,9 @@ import {Link} from "react-router-dom"
 
 
 export default function Projects() {
-    const {darkMode,data } = useContext(GlobalContext)
+    const {darkMode,data,projectsSectionRef } = useContext(GlobalContext)
     return (
-        <section className="flex flex-col gap-10 px-30 py-15 max-sm:px-5" >
+        <section className="flex flex-col gap-10 px-30 py-15 max-sm:px-5" ref={projectsSectionRef} >
             <h1 className={`${darkMode ? "title-1-dark" : "title-1"}`}> {data.projectsSection.h1} </h1>
             <div className="flex gap-20 max-lg:flex-col">
                 {data.projectsSection.projects.map((project, index) =>

@@ -17,7 +17,7 @@ body{
 
 .btn{
     @apply text-title border-1 border-title rounded-md w-30 h-10
-    flex items-center justify-center cursor-pointer
+    flex items-center justify-center cursor-pointer transition delay-50
 }
 
 .btn:hover{
@@ -26,7 +26,7 @@ body{
 
 .btn-dark{
     @apply text-primary border-1 border-title rounded-md w-30 h-10
-    flex items-center justify-center
+    flex items-center justify-center transition delay-50
 }
 
 .btn-dark:hover{
@@ -44,7 +44,7 @@ body{
 
 .btn-fill-dark{
     @apply bg-white text-title border-1 border-title rounded-md w-30 h-10
-    flex items-center justify-center
+    flex items-center justify-center transition delay-50
 }
 
 .btn-fill-dark:hover{
@@ -53,7 +53,7 @@ body{
 
 .btn-s{
     @apply text-title text-sm border-1 border-title rounded-sm w-20 h-5
-    flex items-center justify-center
+    flex items-center justify-center transition delay-50
 }
 
 .btn-s-dark{
