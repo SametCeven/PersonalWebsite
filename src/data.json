@@ -14,7 +14,7 @@
             "h1":"Creative thinker Minimalism lover",
             "p":"Hi , I'm Samet. I'a a full-stack developer. If you are looking for a Developer who to craft solid and scalable frontend products with great user experiences. Let’s shake hands with me.",
             "hire":"Hire me",
-            "image":"../../public/images/intro.jpg"
+            "image":"../../public/static/images/intro.jpg"
         },
         "skillsSection":{
             "h1":"Skills",
@@ -63,7 +63,7 @@
             "projects":[
             {
                 "name":"Recipe",
-                "image":"../../public/images/project1.png",
+                "image":"../../public/static/images/project1.png",
                 "exp":"Developed a responsive web application for discovering, saving, and sharing recipes. Features include dynamic search, interactive recipe pages, and a clean, user-friendly UI.",
                 "tech":["react","redux","axios","tailwind","hookform"],
                 "githubUrl":"https://github.com/SametCeven/Recipe",
@@ -74,7 +74,7 @@
             },
             {
                 "name":"Pizza",
-                "image":"../../public/images/project2.png",
+                "image":"../../public/static/images/project2.png",
                 "exp":"Designed and developed a modern pizza ordering web application with a seamless user experience. The app allows users to browse a menu, customize their orders, and streamline the checkout process.",
                 "tech":["react","cypress","axios"],
                 "githubUrl":"https://github.com/SametCeven/Pizza",
@@ -85,7 +85,7 @@
             },
             {
                 "name":"Witflix",
-                "image":"../../public/images/project3.png",
+                "image":"../../public/static/images/project3.png",
                 "exp":"Developed a sleek and responsive movie streaming web application that allows users to browse, search, and discover movies with a modern, Netflix-inspired UI.",
                 "tech":["html","css","axios"],
                 "githubUrl":"https://github.com/SametCeven/WitFlix",
@@ -138,7 +138,7 @@
             "h1":"Yaratıcı düşünebilen Minimalist hayranı",
             "p":"Merhaba, ben Samet. Full-stack geliştiriciyim. Harika bir kullanıcı deneyimi sunan sağlam ve ölçeklenebilir ön uç ürünler geliştirebilecek bir geliştirici arıyorsanız, gelin el sıkışalım!",
             "hire":"Beni işe al",
-            "image":"../../public/images/intro.jpg"
+            "image":"../../public/static/images/intro.jpg"
 
         },
         "skillsSection":{
@@ -188,7 +188,7 @@
             "projects":[
             {
                 "name":"Recipe",
-                "image":"../../public/images/project1.png",
+                "image":"../../public/static/images/project1.png",
                 "exp":"Keşfetme, kaydetme ve paylaşma özelliklerine sahip duyarlı bir tarif web uygulaması geliştirdim. Özellikler arasında dinamik arama, etkileşimli tarif sayfaları ve temiz, kullanıcı dostu bir arayüz bulunmaktadır.",
                 "tech":["react","redux","axios","tailwind","hookform"],
                 "githubUrl":"https://github.com/SametCeven/Recipe",
@@ -199,7 +199,7 @@
             },
             {
                 "name":"Pizza",
-                "image":"../../public/images/project2.png",
+                "image":"../../public/static/images/project2.png",
                 "exp":"Kesintisiz bir kullanıcı deneyimi sunan modern bir pizza sipariş web uygulaması tasarladım ve geliştirdim. Uygulama, kullanıcıların menüyü incelemesine, siparişlerini özelleştirmesine ve ödeme sürecini kolaylaştırmasına olanak tanır.",
                 "tech":["react","cypress","axios"],
                 "githubUrl":"https://github.com/SametCeven/Pizza",
@@ -210,7 +210,7 @@
             },
             {
                 "name":"Witflix",
-                "image":"../../public/images/project3.png",
+                "image":"../../public/static/images/project3.png",
                 "exp":"Modern, Netflix tarzı bir arayüze sahip şık ve duyarlı bir film akış web uygulaması geliştirdim. Kullanıcılar, filmleri tarayabilir, arayabilir ve keşfedebilir.",
                 "tech":["html","css","axios"],
                 "githubUrl":"https://github.com/SametCeven/WitFlix",
