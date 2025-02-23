@@ -8,7 +8,7 @@ export default function Projects() {
     return (
         <section className="flex flex-col gap-10 px-30 py-15 max-sm:px-5" ref={projectsSectionRef} >
             <h1 className={`${darkMode ? "title-1-dark" : "title-1"}`}> {data.projectsSection.h1} </h1>
-            <div className="flex gap-20 max-lg:flex-col">
+            <div className="flex justify-between gap-20 max-lg:flex-col">
                 {data.projectsSection.projects.map((project, index) =>
                     <div className="flex flex-col gap-5 w-80 justify-between" key={index} >
                         <img className="h-50 object-cover" src={project.image} alt={project.name} loading="lazy" />
