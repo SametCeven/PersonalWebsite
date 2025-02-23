@@ -11,7 +11,16 @@ import { useContext } from 'react';
 import { ToastContainer } from 'react-toastify';
 
 export default function App() {
-  const {darkMode} = useContext(GlobalContext);
+  const {darkMode,error} = useContext(GlobalContext);
+
+  if(error){
+    return(
+      <div className={`${darkMode ? "bg-titleBold" : ""} `}>
+        <ToastContainer position='top-left' autoClose="2000" theme={darkMode ? "dark" : "light"}/>
+        <p className='flex justify-center items-center w-screen h-screen'>API Error...</p>
+      </div>
+    )
+  }
 
   return (
     <div className={`mx-auto w-[1024] px-30 py-15 max-2xl:px-5 max-xl:px-0 max-lg: max-md:py-5 max-sm:px-0  ${darkMode? "bg-titleBold" : "" }  `}>
