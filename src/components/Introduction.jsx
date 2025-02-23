@@ -14,7 +14,7 @@ export default function Introduction(){
                     <span className="border-b-1 border-border w-20 mr-2 flex"></span>
                     <span className={`${darkMode ? "text-border" : "text-title"} `}>Samet Çeven</span>
                 </div>
-                <h1 className={`text-7xl text-titleBold font-bold max-xl:text-center max-sm:text-6xl ${darkMode ? "text-white":""}`}> {data.introSection.h1} </h1>
+                <h1 className={`text-7xl text-titleBold font-bold max-xl:text-center max-sm:text-6xl ${darkMode ? "text-white":""}`} data-cy="introHeader" > {data.introSection.h1} </h1>
                 <p className="w-150 max-xl:text-center max-sm:max-w-85"> {data.introSection.p} </p>
                 <div className="flex gap-3 max-sm:gap-1">
                     <Link className={`${darkMode ? "btn-fill-dark" : "btn-fill"}`}>{data.introSection.hire}</Link>

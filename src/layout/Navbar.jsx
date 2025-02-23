@@ -15,7 +15,7 @@ export default function Navbar(){
     }
 
     return(
-        <nav className={`sticky z-99 top-0 ${darkMode?"bg-titleBold":"bg-[#F9F9F9]"} flex justify-between items-center px-30 py-15 max-md:px-10 max-md:pb-10 max-sm:px-2  ${scrollPosition>50 ? " pb-5" : "" } transition delay-150`}>
+        <nav className={`sticky z-99 top-0 ${darkMode?"bg-titleBold":"bg-[#F9F9F9]"} flex justify-between items-center px-30 py-15 max-md:px-10 max-md:pb-10 max-sm:px-2  ${scrollPosition>200 ? " pb-5" : "" } transition delay-150`}>
             <Link  className="border-1 border-[#EEEBFF] rounded-full w-10 h-10 bg-[#EEEBFF] text-title font-bold rotate-45 flex items-center justify-center text-xl"> S </Link>
             <div className="flex justify-end items-center gap-15 max-sm:gap-3 ">
                 <Link className="hover:border-b-2" onClick={()=>scrollToSection(skillsSectionRef)} > {data.navSection.skills} </Link>
