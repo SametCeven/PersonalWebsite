@@ -8,7 +8,7 @@ import {Link} from "react-router-dom"
 export default function Introduction(){
     const {darkMode,data} = useContext(GlobalContext)
     return(
-        <div className="flex items-center justify-between px-30 py-15 max-xl:flex-col max-xl:py-0 max-sm:px-5" >
+        <main className="flex items-center justify-between px-30 py-15 max-xl:flex-col max-xl:py-0 max-sm:px-5" >
             <div className="flex flex-col gap-10 mr-10 max-xl:gap-5 max-xl:items-center max-xl:mr-0 max-sm:max-w-85 max-sm:">
                 <div className="flex items-center max-sm:mt-5">
                     <span className="border-b-1 border-title w-20 mr-2 flex"></span>
@@ -29,6 +29,6 @@ export default function Introduction(){
                 </div>
             </div>
             <img src={data.introSection.image} alt="intro" className="w-120 rounded-xl max-xl:w-90 max-xl:my-10 max-md:w-60"/>
-        </div>
+        </main>
     )
 }

@@ -1,9 +1,13 @@
 import "./Header.css"
 import { useContext } from "react"
 import { GlobalContext } from "../contexts/GlobalContext"
+import { ScrollContext } from "../contexts/ScrollContext"
+import { toast } from "react-toastify"
 
 export default function Header() {
-    const { lang, darkMode, setLang, setDarkMode, scrollPosition,data } = useContext(GlobalContext)
+    const { lang, darkMode, setLang, setDarkMode,data,loading,error } = useContext(GlobalContext)
+    const {scrollPosition} = useContext(ScrollContext)
+    
     function handleDarkMode() {
         if (darkMode === true) setDarkMode(false)
         else setDarkMode(true)
@@ -11,10 +15,13 @@ export default function Header() {
     function handleLanguage() {
         if (lang === "en") setLang("tr")
         else setLang("en")
+        
     }
- 
+
+
+
     return (
-        <div className={`sticky z-100 top-5 flex justify-end gap-3 text-primary text-[15px] px-30 max-sm:justify-center max-sm:px-2 ${scrollPosition>50 && darkMode ? "bg-titleBold py-0" : "" } ${scrollPosition>50 && !darkMode ? "bg-[#F9F9F9] py-0" : "" }`}>
+        <header className={`sticky z-100 top-5 text-primary ${darkMode?"bg-titleBold":"bg-[#F9F9F9]"} text-[15px] px-30 flex justify-end gap-3  max-sm:justify-center max-sm:px-2 ${scrollPosition>50 ? "py-0" : "" }`}>
             <div className="flex gap-1 items-center">
                 <label className="switch">
                     <input
@@ -39,6 +46,6 @@ export default function Header() {
                     </span>
                 </p>
             </div>
-        </div>
+        </header>
     )
 }
