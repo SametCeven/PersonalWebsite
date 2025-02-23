@@ -21,7 +21,7 @@ export default function Header() {
 
 
     return (
-        <header className={`sticky z-100 top-5 text-primary ${darkMode?"bg-titleBold":"bg-[#F9F9F9]"} text-[15px] px-30 flex justify-end gap-3  max-sm:justify-center max-sm:px-2 ${scrollPosition>50 ? "py-0" : "" } transition delay-150  `}>
+        <header className={`sticky z-100 top-5 text-primary ${darkMode?"bg-titleBold":"bg-[#F9F9F9]"} text-[15px] px-30 flex justify-end gap-3  max-sm:justify-center max-sm:px-2 ${scrollPosition>200 ? "py-0" : "" } transition delay-150  `}>
             <div className="flex gap-1 items-center">
                 <label className="switch">
                     <input
@@ -35,7 +35,7 @@ export default function Header() {
                 </label>
             </div>
             <span>|</span>
-            <div className="font-bold hover:cursor-pointer">
+            <div className="font-bold hover:cursor-pointer" data-cy="langButton">
                 <p onClick={handleLanguage}>
                     {lang === "tr" ? <span> SWITCH TO </span> : ""}
                     <span className={`${darkMode ? "text-border" : "text-title"} `}>
