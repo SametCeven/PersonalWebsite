@@ -1,9 +1,10 @@
 @import "tailwindcss";
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* --font-primary: "Inter", "Roboto"; */
 
 @theme {
-    --font-primary: "Inter";
+    --font-primary: "Inter", "Arial";
     --color-title: #4338CA;
     --color-titleBold: #1F2937;
     --color-primary:#6B7280;
@@ -12,7 +13,8 @@
 }
 
 body{
-    @apply font-primary text-primary text-lg;
+    @apply font-primary text-primary text-lg transition delay-150;
+    
 }
 
 .btn{
@@ -25,7 +27,7 @@ body{
 }
 
 .btn-dark{
-    @apply text-primary border-1 border-title rounded-md w-30 h-10
+    @apply text-border border-1 border-title rounded-md w-30 h-10
     flex items-center justify-center transition delay-50
 }
 
@@ -35,7 +37,7 @@ body{
 
 .btn-fill{
     @apply bg-fill text-white border-1 border-title rounded-md w-30 h-10
-    flex items-center justify-center
+    flex items-center justify-center transition delay-50
 }
 
 .btn-fill:hover{
@@ -58,7 +60,7 @@ body{
 
 .btn-s-dark{
     @apply text-border text-sm border-1 border-title rounded-sm w-20 h-5
-    flex items-center justify-center
+    flex items-center justify-center transition delay-50
 }
 
 .title-1{
@@ -66,7 +68,7 @@ body{
 }
 
 .title-1-dark{
-    @apply text-white text-titleBold text-5xl font-semibold 
+    @apply text-white text-titleBold text-5xl font-semibold
 }
 
 .title-2{
